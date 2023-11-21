@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: antiquewhite;">
+
+    <div id="Banner">
+        <h1><!--no text--></h1>
+
+        <a href="https://www.nasa.gov/">
+            <img id="nasalogo" src="images/nasalogo.png" height="100" title="Go to the NASA homepage.">
+        </a>
+    </div>
+
+    <div id="NavigationBar">
+        <a href="index.html" title="Go to the homepage."><button id="NavButton">Home</button></a>
+        <a href="about.html" title="Read about the mission."><button id="NavButton">About the Mission</button></a>
+        <a href="images.html" title="View the latest images from Perseverance."><button id="NavButton">Image Gallery</button></a>
+        <a href="techinfo.html" title="Read the technical information and stats about Perseverance."><button id="NavButton">Technical Information</button></a>
+        <a href="livedata.html" title="View live data related to Perseverance and the Mars 2020 mission."><button id="NavButton">Live Data</button></a>
+        <a href="newsletter.html" title="Sign up for the Perseverance newsletter!"><button id="NavButton">Newsletter</button></a>
+    </div>
+
+    <div id="PageContent_TI">
+        
+        <div>
+            <table id="TechInfoTable">
+                <tr>
+                    <th>Part:</th>
+                    <th>Function:</th>
+                </tr>
+                <tr>
+                    <td>Body:</td>
+                    <td>A structure that protects the rover's "vital organs".</td>
+                </tr>
+                <tr>
+                    <td>Head:</td>
+                    <td>A mast for the cameras to give the rover a human-scale view, and computers to process information.</td>
+                </tr>
+                <tr>
+                    <td>Communications:</td>
+                    <td>Antennas for "speaking" and "listening", and cameras and instruments that give the rover information about its environment.</td>
+                </tr>
+                <tr>
+                    <td>Wheels and Legs:</td>
+                    <td>Allows the rover to traverse the martian environment.</td>
+                </tr>
+            </table> 
+        </div>
+
+        <div id="TechInfoText">
+
+            <p>
+                <i>The adjacent table lists the <b>core</b> parts of Perseverance, and explains their basic function.</i>
+            </p>
+
+            <p>
+                The Mars 2020 rover, Perseverance, is based on the Mars Science Laboratory's Curiosity rover configuration. 
+                It is car-sized, about 10 feet long (not including the arm), 9 feet wide, and 7 feet tall (about 3 meters long, 2.7 meters wide, and 2.2 meters tall). 
+                But at 2,260 pounds (1,025 kilograms), it weighs less than a compact car. 
+                In some sense, the rover parts are similar to what any living creature would need to keep it "alive" and able to explore.
+            </p>
+
+            <p>
+                Unlike people and most animals, the rover's brains - its computer - are in its boxy body. 
+                The computer module is called the Rover Compute Element (RCE) - there are actually two identical RCEs in the body so there is always a spare "brain."
+                The Rover Compute Element interfaces with the engineering functions of the Perseverance rover over two networks which follow an aerospace industry standard 
+                designed especially for the high-reliability requirements of airplanes and spacecraft. 
+                In addition, the RCEs have a special purpose to direct interfaces with all of the rover instruments for exchange of commands and science data.
+                The computer contains special memory to tolerate the extreme radiation environment that exists in space and on the Martian surface.
+            </p>
+
+            <p>
+                The Perseverance rover carries an Inertial Measurement Unit (IMU) that provides 3-axis information on its position, 
+                which enables the rover to make precise vertical, horizontal, and side-to-side (yaw) movements. 
+                The device is used in rover navigation to support safe traverses and to estimate the degree of tilt the rover is experiencing on the surface of Mars.
+            </p>
+
+            <p>
+                Just like the human brain, the rover computers register signs of health, like temperature and power levels, along with other features that keep the rover "alive." 
+                This main control loop constantly checks systems to ensure that the rover is both able to communicate throughout the surface mission 
+                and that it remains thermally stable (not too hot or too cold) at all times. 
+                It does so by periodically checking temperatures, particularly in the rover body, and adjusting temperature control accordingly; 
+                and then recording power generation and power storage data throughout the Mars sol (a Martian day) to decide what new activities 
+                can be started or completed; and then finally scheduling and preparing for communication sessions with Earth or with local Mars orbiters.
+            </p>
+
+            <p>
+                Activities such as taking pictures, driving, and operating the instruments are performed under commands 
+                transmitted in a command sequence to the rover from the flight team back on Earth.
+                Perseverance generates constant engineering, housekeeping and analysis telemetry and periodic event reports that 
+                are stored for eventual transmission once the flight team requests the information from the rover.
+                The rover has two "computer brains," one of which is normally asleep. In case of problems the other 
+                computer brain can be awakened to take over control and continue the mission.
+            </p>
+
+        </div>
+
+        <div>
+            <iframe id="model" src='https://mars.nasa.gov/layout/embed/model/?s=6' width='800' height='450' scrolling='no' frameborder='0' allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <div id="Footer">
+        <p> <a href="contactus.html" title="Contact Us.">Contact Us</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;UNIVERSITY OF DERBY - 2023</p>
+    </div>
+
+</body>
+</html>
